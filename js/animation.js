@@ -1,0 +1,17 @@
+// animation library https://scrollrevealjs.org/guide/hello-world.html
+const animation = ScrollReveal({
+    ditance: '30px',
+    duration: 1500,
+    delay: 400,
+    reset: true,
+});
+
+animation.reveal('.hero-content,.heroimage,.service-content,.about-section,.contact-section,.footer-container', {
+    delay: 200, 
+    origin: 'bottom',
+});
+
+animation.reveal('.stats-section', {
+    delay: 300, 
+    origin: 'bottom',
+});
